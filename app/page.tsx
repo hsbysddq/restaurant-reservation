@@ -1,10 +1,12 @@
+import Footer from "@/components/Footer/page"
 import Navbar from "@/components/Navbar/page"
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <Navbar />
       <h1>Halo</h1>
-    </div>
+      <Footer />
+    </main>
   )
 }
