@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="flex pb-20">
         <div
           style={{ writingMode: "vertical-rl" }}
-          className="flex items-center"
+          className="flex items-center ml-2"
         >
           <div className="font-serif text-4xl pb-4">
             <p>Scroll</p>
@@ -57,6 +57,27 @@ const Hero = () => {
             alt="Hero img"
             className="mx-4"
           />
+        </div>
+      </div>
+
+      <div className="flex mt-8 pb-36">
+        <div className="basis-1/2 mr-48">
+          <Image src="/food1.svg" width={555} height={392} alt="Food" />
+          <h1 className="text-5xl font-serif py-8">
+            Start to plan <br /> your diet today
+          </h1>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing <br /> elit.
+            Neque congue arcu
+          </p>
+        </div>
+        <div className="basis-2/6">
+          <p className="pb-12">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
+            congue arcu
+          </p>
+          <Image src="/food2.svg" width={356} height={497} alt="Food" />
         </div>
       </div>
     </div>
